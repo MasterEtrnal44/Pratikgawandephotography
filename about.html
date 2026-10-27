@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Pratik Gawande Photography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Playfair Display', 'serif'] } } } }
+    </script>
+</head>
+<body class="bg-black text-zinc-100 font-sans antialiased overflow-x-hidden">
+
+    <nav class="w-full top-0 z-50 pt-4 pb-4 bg-black border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="block rounded overflow-hidden border border-white/20 shadow-[0_0_15px_rgba(0,0,0,0.8)] group">
+                        <img src="./logo.jpg" alt="PGP Logo" class="h-12 w-auto object-cover opacity-95 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500">
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-10 text-[11px] font-semibold uppercase tracking-[0.25em]">
+                        <a href="index.html" class="text-zinc-400 hover:text-white transition duration-300">Home</a>
+                        <a href="portfolio.html" class="text-zinc-400 hover:text-white transition duration-300">Portfolio</a>
+                        <a href="services.html" class="text-zinc-400 hover:text-white transition duration-300">Services</a>
+                        <a href="about.html" class="text-white border-b border-white pb-1">About</a>
+                        <a href="inquiry.html" class="text-white hover:text-zinc-300 transition duration-300">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-24 bg-zinc-900 min-h-screen">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/2">
+                    <div class="aspect-[4/5] rounded-xl overflow-hidden border border-zinc-800 shadow-2xl relative">
+                        <div class="absolute inset-0 bg-black/20 z-10"></div>
+                        <img src="IMG_1261.JPG.jpg" alt="Pratik Gawande" class="w-full h-full object-cover relative z-0">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h2 class="font-serif text-4xl font-bold text-white mb-6">The Artist Behind the Lens</h2>
+                    <p class="text-zinc-400 mb-4 leading-relaxed font-light">
+                        Shooting professionally since 2020, I have spent over half a decade mastering the art of cinematic, timeless, and unposed storytelling. Based in Amravati, I believe the best photographs are the ones you didn't know were being taken.
+                    </p>
+                    <p class="text-zinc-400 mb-8 leading-relaxed font-light">
+                        My approach strips away the stiff, traditional poses. Instead, I focus on the raw emotions, the laughter, and the fleeting moments that make your event uniquely yours, delivering a premium visual narrative you will cherish forever.
+                    </p>
+                    <a href="inquiry.html" class="bg-white text-black px-6 py-3 rounded font-medium text-sm hover:bg-zinc-200 transition">Book a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-10 text-center border-t border-zinc-900">
+        <p class="text-zinc-500 text-sm">Shegaon naka, Ashiyad chowk near Bagde Niwas, Amravati</p>
+        <p class="text-zinc-500 text-sm mt-2">&copy; 2026 Pratik Gawande Photography. All rights reserved.</p>
+    </footer>
+</body>
+</html>
